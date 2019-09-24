@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RGB Color Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="rgb_guessing_game.css">
+</head>
+<body>
+
+	<h1>
+		The Guessing <br> 
+		<span id="colorDisplay">RGB</span> 
+		<br> Color Game 
+	</h1>
+
+
+
+	<div id="stripe">
+		<button id="resetButton">Start Game</button>
+		<span id="message"> </span>
+		<button id="easy">Easy</button>
+		<button id="hard" class="selected">Hard</button>
+	</div>
+
+	<div id="container">
+		<div class="square"> </div>
+		<div class="square"> </div>
+		<div class="square"> </div>
+		<div class="square"> </div>
+		<div class="square"> </div>
+		<div class="square"> </div>
+		<div id="highscore">
+			<p> Highscore = <span id="hscore"> 0 </span> | Your Score = <span id="score"> 0 </span> </p>
+		</div>
+	</div>
+
+
+
+
+
+<script type="text/javascript" src="rgb_guessing_game.js"></script>
+</body>
+</html>
